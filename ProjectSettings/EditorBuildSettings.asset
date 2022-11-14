@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Josh/Scenes/OptionsMenu.unity
     guid: 72cd32398076acc4cbe8f2f3cec4c577
+  - enabled: 1
+    path: Assets/Isaac/Scenes/Level.unity
+    guid: 94817b0de58341040aa8a627e1fe7bb5
   m_configObjects: {}
