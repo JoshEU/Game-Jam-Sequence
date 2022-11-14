@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Josh/Scenes/MainMenu.unity
+    guid: 2fb69dd530f90044b97eb60211d0bd15
+  - enabled: 1
+    path: Assets/Josh/Scenes/OptionsMenu.unity
+    guid: 72cd32398076acc4cbe8f2f3cec4c577
+  - enabled: 1
+    path: Assets/Josh/Scenes/GlitchedMainMenu.unity
+    guid: a7dfe2e1b5f535948a7e19babc989111
   m_configObjects: {}

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.Events;
 
 public class MainMenu : MonoBehaviour {
     public void StartButton() {
         // Load Level One Scene 
         SceneManager.LoadScene(2);
-        Debug.Log("hsua");
     }
     public void OptionsButton() {
         // Load Option Menu Scene 
@@ -23,6 +23,4 @@ public class MainMenu : MonoBehaviour {
         // Keep this
         Application.Quit();
     }
-
-   
 }
