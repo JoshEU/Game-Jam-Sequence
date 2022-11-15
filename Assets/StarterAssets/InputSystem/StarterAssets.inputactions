@@ -240,6 +240,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "UI",
+            "id": "aa8d70f1-2d32-4c5e-9e7d-1237893f8334",
+            "actions": [
+                {
+                    "name": "BackMainMenu",
+                    "type": "PassThrough",
+                    "id": "5eccbabb-3cee-4d4a-b588-a3e43ec9e6c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "840b5f9b-34cc-4eef-b354-08ba906af216",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "BackMainMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
