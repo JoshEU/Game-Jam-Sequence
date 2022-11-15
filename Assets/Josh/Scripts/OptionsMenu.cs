@@ -33,6 +33,7 @@ public class OptionsMenu : MonoBehaviour {
         AudioListener.volume = masterVolumeSlider.value;
         SetMasterVolume();
     }
+
     public void BackButton() {
         // Load MainMenu Scene
         SceneManager.LoadScene(0);
