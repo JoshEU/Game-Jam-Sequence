@@ -29,17 +29,17 @@ namespace Kino
     [AddComponentMenu("Kino Image Effects/Digital Glitch")]
     public class DigitalGlitch : MonoBehaviour
     {
-        #region Public Properties
+    #region Public Properties
 
-        [SerializeField, Range(0, 1)]
-        float _intensity = 0;
+    [SerializeField, Range(0, 1)]
+    float _intensity = 0;
 
-        public float intensity {
-            get { return _intensity; }
-            set { _intensity = value; }
-        }
+    public float intensity {
+        get { return _intensity; }
+        set { _intensity = value; }
+    }
 
-        #endregion
+    #endregion
 
         #region Private Properties
 

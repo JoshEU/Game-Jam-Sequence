@@ -825,9 +825,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 765782030}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d0f3e8c9d6f68444bcd5f923a6340ce, type: 3}
+  m_Script: {fileID: 11500000, guid: b632f9f5d97c93949b9ffccb61bbcd7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  digitalGlitch: {fileID: 1398470776}
 --- !u!1 &1061357188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,7 +1135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a3a070408aa941ab83ae10be1708848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _intensity: 0.1
+  _intensity: 0.025
   _shader: {fileID: 4800000, guid: ba40dc630e1d9417cb9ea22586ece1e1, type: 3}
 --- !u!81 &1398470777
 AudioListener:
