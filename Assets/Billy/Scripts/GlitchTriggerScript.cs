@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DoorAnimationScript : MonoBehaviour {
-    [SerializeField]
-    private Animator animator;
+public class GlitchTriggerScript : MonoBehaviour {
+    public UnityEvent glitchEnter;
+    public UnityEvent glitchExit;
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
-            animator.SetTrigger("Open");
+            glitchEnter.Invoke();
         }
     }
 
     private void OnTriggerExit(Collider other) {
         if (other.CompareTag("Player")) {
-            animator.SetTrigger("Close");
+            glitchExit.Invoke();
         }
     }
 }
