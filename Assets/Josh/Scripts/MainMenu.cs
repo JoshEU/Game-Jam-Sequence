@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
-using UnityEngine.Events;
 
 public class MainMenu : MonoBehaviour {
     public void StartButton() {
+        Time.timeScale = 1;
         // Load Level One Scene 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Level");
     }
     public void OptionsButton() {
         // Load Option Menu Scene 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("OptionsMenu");
     }
     public void CreditsButton() {
 
