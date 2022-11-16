@@ -11,8 +11,6 @@ public class MainMenu : MonoBehaviour {
     private GameObject CreditsObj;
 
     private float enterValue;
-    private bool isEnterPressed;
-
     private void Awake() {
         enterInput.action.performed += context => enterValue = context.action.ReadValue<float>();
     }
