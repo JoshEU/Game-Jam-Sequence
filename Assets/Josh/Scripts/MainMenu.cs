@@ -30,9 +30,6 @@ public class MainMenu : MonoBehaviour {
         SceneManager.LoadScene("OptionsMenu");
     }
     public void QuitButton() {
-        // Delete this line later!!!!
-        UnityEditor.EditorApplication.isPlaying = false;
-        // Keep this
         Application.Quit();
     }
 }

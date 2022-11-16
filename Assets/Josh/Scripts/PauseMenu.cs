@@ -34,9 +34,6 @@ public class PauseMenu : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     } 
     public void QuitButton() {
-        // REMOVE LATER
-        UnityEditor.EditorApplication.isPlaying = false;
-        // KEEP LATER
         Application.Quit();
     }
 }
